@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Visuals</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+        }
+        
+        .circular-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        
+        .circular-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 15px;
+        }
+        
+        .containera {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0px;
+            font-size: 13px;
+        }
+        
+        .works {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .work {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        
+        .work img {
+            width: 100%;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .staff {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .staff-member {
+            flex-basis: 30%;
+            text-align: center;
+            margin: 10px;
+        }
+        
+        .contact {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="circular-image">
+            <img src="canvavisuals.png" alt="Canva Visuals">
+        </div>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#works">Works</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="containera">
+        <h2 id="home">Welcome to Canvas Visuals, a realm where creativity knows no bounds and visions come alive through the expertise of our photographers and designers. We are more than just a company; we are a canvas of endless possibilities, dedicated to transforming
+            your ideas into breathtaking visual masterpieces. Through the fusion of photography and design, we craft a symphony of colors, emotions, and stories that align with your vision. Whether you seek to preserve cherished moments or elevate your
+            brand, our team is ready to embrace the challenge and make your dreams a reality. Join us on an exhilarating journey, where every camera click and design stroke adds depth to your narrative. Your precious moments and ideas will transcend time
+            as they become timeless works of art in the hands of Canvas Visuals. Welcome to a world where photography and design converge to tell your story in the most captivating and meaningful way.</h2>
+    </div>
+    <div class="container">
+        <h2 id="works">Our Works</h2>
+        <div class="works">
+            <div class="work">
+                <img src="1.jpg" alt="Work 1">
+            </div>
+            <div class="work">
+                <img src="2.png" alt="Work 2">
+            </div>
+            <div class="work">
+                <img src="3.jpg" alt="Work 3">
+            </div>
+            <div class="work">
+                <img src="4.png" alt="Work 4">
+            </div>
+            <div class="work">
+                <img src="5.jpg" alt="Work 5">
+            </div>
+            <div class="work">
+                <img src="6.jpg" alt="Work 6">
+            </div>
+        </div>
+        <h2 id="team">Our Team</h2>
+        <div class="staff">
+            <div class="staff-member">
+                <div class="circular-image">
+                    <img src="7.jpg" alt="Staff 1">
+                </div>
+                <h3>Somade Toluwani </h3>
+                <p>Photographer and Designer</p>
+            </div>
+        </div>
+        <div class="contact">
+            <h2 id="contact">Contact Us</h2>
+            <div>
+                <a href="https://www.instagram.com/adesmith13/" target="_blank">
+                    <img src="Instagram_logo_2016.svg.png" width="20px" height="20px" alt="Instagram">
+                </a>
+                <a href="https://twitter.com/yourcoderboy18" target="_blank">
+                    <img src="Logo_of_Twitter.svg.png" width="20px" height="20px" alt="Twitter">
+                </a>
+                <a href="https://github.com/Adesmith001" target="_blank">
+                    <img src="Github.png" width="20px" height="20px" alt="Github">
+                </a>
+                <a href="mailto:somadetoluwani@gmail.com" target="_blank">
+                    <img src="gmail.png" width="20px" height="20px" alt="Gmail">
+                </a>
+                <a href="https://www.linkedin.com/in/somade-toluwani-986224273/7" target="_blank">
+                    <img src="Linkedin.png" width="20px" height="20px" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
