@@ -53,6 +53,22 @@ nav a {
     z-index: 1000;
 }
 
+
+/*Media Query for Mobile devices */
+
+@media (max-width:480px) {
+    .navbar {
+        background-color: #444;
+        text-align: center;
+        padding: 10px 0;
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+}
+
 .navbar a {
     color: white;
     text-decoration: none;
@@ -86,8 +102,25 @@ nav a {
 
 .work img {
     width: 100%;
-    border: 2px solid #ddd;
+    border: 3px solid #B0C0BC;
     border-radius: 5px;
+    padding: 5px;
+    background-color: #C1EDCC;
+    margin: 5px;
+}
+
+
+/*Media Query for Mobile devices */
+
+@media (max-width:480px) {
+    .work img {
+        width: 100%;
+        border: 3px solid #B0C0BC;
+        border-radius: 5px;
+        padding: 0px;
+        background-color: #C1EDCC;
+        margin: 5px;
+    }
 }
 
 .staff {
@@ -107,4 +140,12 @@ nav a {
 .contact {
     text-align: center;
     margin: 20px 0;
+}
+
+.h2 {
+    background-color: #EB5160;
+    padding: 30px;
+    border: 3.5px #071013 solid;
+    border-width: 50%;
+    margin: 30px;
 }
